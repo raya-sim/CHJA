@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=IM+Fell+English&family=IM+Fell+English+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap');
+
 background-image: linear-gradient(225deg, var(--primary) 20%,#0000), var(--image);
 
 div.flex.fill.ribbons.centered {   font-size: 13px;   font-family: Cormorant; }
