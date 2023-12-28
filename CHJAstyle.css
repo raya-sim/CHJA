@@ -18,9 +18,10 @@ button.daisytablinks { color: #fff; }
 button.daisytablinks:hover { color: #e7e7e7; }
 button.daisytablinks.active { color: #e7e7e7!important; }
 
+
 legend { font-family: 'IM Fell English'; }
 
-h1 { font-family: 'Josefin Sans'; color:#d0b178; text-transform:uppercase; font-size:25px; background: linear-gradient(90deg, #59727d 0%, transparent 33%, transparent 66%, #59727d 100%); }
+h1 { font-family: 'Josefin Sans'; color:#d0b178; text-transform:uppercase; font-style:normal!important; font-size:25px; background: linear-gradient(90deg, #59727d 0%, transparent 33%, transparent 66%, #59727d 100%); }
 
 .progress { background: #415057; }
 
