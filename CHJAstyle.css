@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=IM+Fell+English&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+background-image: linear-gradient(225deg, var(--primary) 20%,#0000), var(--image);
+
+div.flex.fill.ribbons.centered {   font-size: 13px;   font-family: Cormorant; }
+
+.writeup {
+  font-size: 13px;
+  font-family: Cormorant;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+a { transition: .3s; text-decoration: none; color: #59727d; }
+a:hover { color: #728b96; }
+
+button.daisytablinks { color: #fff; }
+button.daisytablinks:hover { color: #e7e7e7; }
+button.daisytablinks.active { color: #e7e7e7!important; }
+
+body { font-family: 'Open Sans'; }
+
+legend { font-family: 'IM Fell English'; }
+
+h1 { font-family: 'Josefin Sans'; color:#d0b178; letter-spacing: 1px; background: linear-gradient(90deg, #59727d 0%, transparent 33%, transparent 66%, #59727d 100%); }
+
+.progress { background: #415057; }
+
+h2 { font-family: 'IM Fell English'; font-size: 16px; letter-spacing: 2px; }  
+h3 { font-family: 'IM Fell English SC' ;
+font-size: 14px; letter-spacing: 2px; }  
+h4{ font-family: 'IM Fell English SC';
+font-size: 14px; letter-spacing: 2px; }  
+th { background-color:#415057;
+color:#fff }
+.blue-edge {border-left:2px solid #415057; padding-left: 15px; margin-left: 15px;}
+
+/* Style the tab */
+.daisytab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #415057;
+display: flex;
+  justify-content: center;
+border-radius: 0.5rem;
+}
+
+/* Style the buttons that are used to open the tab content */
+.daisytab button {
+  background-color: inherit;
+    float: inherit
+text-align: center;
+margin: 0 auto;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.daisytab button:hover {
+  background-color: #415057;
+display: block;
+    position: relative;
+    float: left;
+color: #f1f1f1;
+}
+
+/* Create an active/current tablink class */
+.daisytab button.active {
+  background-color: #415057;
+display: block;
+    position: relative;
+    float: inherit
+text-align: center;
+color: #f1f1f1;
+}
+
+/* Style the tab content */
+.daisycontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
